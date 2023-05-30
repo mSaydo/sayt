@@ -6,7 +6,7 @@ html {
 	font-size: 16px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	
+
 }
 
 html.has-scroll-smooth {
@@ -110,7 +110,7 @@ h6 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border-top: 1px solid #101010
+	border-top: 1px solid #fff
 }
 
 .c-accordion_container.open .c-accordion_header {
@@ -165,9 +165,7 @@ h6 {
 }
 
 .c-accordion_container.open .expand::after,
-.c-accordion_container.open .expand::before {
-	
-}
+.c-accordion_container.open .expand::before {}
 
 .c-accordion_container.open .expand::after {
 	opacity: 0
@@ -196,12 +194,12 @@ h6 {
 	font-size: .675rem;
 	line-height: 1;
 	;
-	border: 1px solid #101010;
+	border: 1px solid #fff;
 	border-radius: 30rem
 }
 
 .c-button {
-	color: #f0f0f0;
+	color: #000000;
 	background-color: #fff;
 	transition: background-color .4s ease-out, color .1s ease-out;
 	display: inline-block;
@@ -374,7 +372,7 @@ h6 {
 	align-items: center;
 	justify-content: space-between;
 	padding: 1rem;
-	border-top: 1px solid #101010
+	border-top: 1px solid #fff
 }
 
 .c-card.-nft .c-card_num {
@@ -382,7 +380,7 @@ h6 {
 }
 
 .c-card.-nft.-border {
-	border-bottom: 1px solid #101010
+	border-bottom: 1px solid #fff
 }
 
 @media(min-width: 64rem) {
@@ -392,7 +390,7 @@ h6 {
 }
 
 .c-card.-border {
-	border-bottom: 1px solid #101010
+	border-bottom: 1px solid #fff
 }
 
 @media(min-width: 64rem) {
@@ -437,7 +435,7 @@ h6 {
 .c-circle-text svg {
 	width: 100%;
 	height: 100%;
-	fill: #101010;
+	fill: #fff;
 	-webkit-animation-iteration-count: infinite;
 	animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
@@ -572,7 +570,7 @@ h6 {
 .c-collection-scroll {
 	position: relative;
 	width: 100%;
-	border-top: 1px solid #101010
+	border-top: 1px solid #fff
 }
 
 .c-collection-scroll_inner {
@@ -610,7 +608,7 @@ h6 {
 	width: 100%;
 	height: calc(100vh - (3.875rem - 1px));
 	overflow: hidden;
-	border-top: 1px solid #101010
+	border-top: 1px solid #fff
 }
 
 .c-footer_inner {
@@ -639,7 +637,7 @@ h6 {
 	height: 100%;
 	display: flex;
 	padding: 1rem;
-	
+
 }
 
 @media(min-width: 78rem) {
@@ -652,7 +650,7 @@ h6 {
 
 .c-footer_cta_right {
 	padding: 0;
-	border-top: 1px solid #101010
+	border-top: 1px solid #fff
 }
 
 @media(min-width: 78rem) {
@@ -698,17 +696,16 @@ h6 {
 	z-index: 9
 }
 
-.c-footer_social .c-list_item {
-	
-}
+.c-footer_social .c-list_item {}
 
 .c-header {
+	background-color: rgb(4 31 42);
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 3.875rem;
-	border-bottom: 1px solid #101010;
+	border-bottom: 1px solid #fff;
 	;
 	z-index: 200;
 	overflow: hidden;
@@ -724,7 +721,7 @@ h6 {
 
 .c-header_logo {
 	width: 50%;
-	border-right: 1px solid #101010;
+	border-right: 1px solid #fff;
 	display: flex;
 	align-items: center
 }
@@ -736,7 +733,7 @@ h6 {
 }
 
 .c-header_logo .svg-logo {
-	fill: #101010
+	fill: #fff
 }
 
 .c-header_nav {
@@ -804,14 +801,113 @@ h6 {
 	transition: transform .8s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform .8s cubic-bezier(0.645, 0.045, 0.355, 1)
 }
 
+.aval {
+	position: relative;
+	box-sizing: border-box;
+	width: 650.6px;
+	height: 500.86px;
+	margin-top: 50px;
+	margin-left: 120px;
+	border: 1px solid #FFFFFF;
+	border-radius: 50%;
+	transform: rotate(-11.09deg);
+}
+
+.dio {
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	text-align: center;
+	bottom: 0;
+	top: 0;
+	margin: 33% 0;
+	transform: rotate(11.09deg);
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.dud {
+  color: #ffffff2d
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.star {
+	/* Add animation */
+	float: right;
+	margin-right: 150px;
+	animation-name: spin;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.star {
+	/* Add animation */
+	float: right;
+	margin-right: 150px;
+	animation-name: spin;
+	animation-duration: 22s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.star-small {
+	/* Add animation */
+	position: absolute;
+	right: 80px;
+	bottom: 0;
+	top: 120px;
+	animation-name: spin;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.ring {
+	position: absolute;
+	bottom: 100px;
+	left: -100px;
+}
+
 .c-heading.-split.is-inview span span {
 	display: block;
 	-webkit-transform: translateY(0);
-	transform: translateY(0)
+	transform: translateY(0);
+	padding: 20px
 }
 
 .c-subheading {
-	font-size: .825rem;
+	font-size: 1.2rem;
 	font-weight: 400;
 	text-transform: uppercase;
 	text-align: justify
@@ -834,7 +930,7 @@ h6 {
 	flex-direction: column;
 	padding-top: 3.875rem;
 	height: auto;
-	
+
 }
 
 @media(min-width: 78rem) {
@@ -848,7 +944,7 @@ h6 {
 	height: auto;
 	display: flex;
 	flex-wrap: wrap;
-	border-bottom: 1px solid #101010
+	border-bottom: 1px solid #fff
 }
 
 @media(min-width: 78rem) {
@@ -874,7 +970,6 @@ h6 {
 }
 
 .c-hero_top_left {
-	display: flex;
 	flex-direction: column;
 	justify-content: space-between
 }
@@ -887,7 +982,9 @@ h6 {
 @media(min-width: 78rem) {
 	.c-hero_top_left .c-subheading {
 		max-width: 32rem;
-		width: 80%
+		width: 50%;
+		padding: 5px 30px;
+		margin-top: 10px
 	}
 }
 
@@ -897,7 +994,7 @@ h6 {
 	align-items: center;
 	justify-content: space-between;
 	height: 28.125rem;
-	border-top: 1px solid #101010;
+	border-top: 1px solid #fff;
 	z-index: 0
 }
 
@@ -1036,7 +1133,7 @@ a.c-link .c-link--skip:focus,
 
 .c-list .c-list_item {
 	padding: 1rem 1.5rem;
-	border-bottom: 1px solid #101010;
+	border-bottom: 1px solid #fff;
 	font-size: .875rem
 }
 
@@ -1068,7 +1165,7 @@ a.c-link .c-link--skip:focus,
 }
 
 .c-list.-inline .c-list_item:not(:last-child) {
-	border-right: 1px solid #101010
+	border-right: 1px solid #fff
 }
 
 .c-list.-unstyled .c-list_item {
@@ -1112,7 +1209,7 @@ a.c-link .c-link--skip:focus,
 }
 
 .c-modal_container {
-	border: 1px solid #101010;
+	border: 1px solid #fff;
 	position: relative;
 	padding: 1.675rem;
 	-webkit-transform: translateY(100px) scaleX(1.2) scale(1.4);
@@ -1195,7 +1292,7 @@ a.c-link .c-link--skip:focus,
 }
 
 .c-cursor.-text:before {
-	background: #101010;
+	background: #fff;
 	-webkit-transform: scale(1.7);
 	transform: scale(1.7)
 }
@@ -1233,7 +1330,7 @@ a.c-link .c-link--skip:focus,
 	-webkit-transform: scale(0) rotate(10deg);
 	transform: scale(0) rotate(10deg);
 	opacity: 0;
-	color: #f0f0f0;
+	color: #000000;
 	font-size: .785rem;
 	line-height: 1;
 	text-align: center;
@@ -1324,9 +1421,8 @@ a.c-link .c-link--skip:focus,
 
 .c-nav_list_item .c-link {
 	position: relative;
-	font-size: .775rem;
+	font-size: 1.1rem;
 	line-height: 1.2;
-	text-transform: uppercase
 }
 
 .c-nav_list_item .svg-discord {
@@ -1552,7 +1648,7 @@ html.has-menu-mobile-open .c-menu-mobile_inner {
 }
 
 .c-particles-wrap_header .svg-logo-gs {
-	fill: #101010
+	fill: #fff
 }
 
 .c-particles {
@@ -1571,7 +1667,7 @@ html.has-menu-mobile-open .c-menu-mobile_inner {
 	pointer-events: auto
 }
 
-.c-particles_item .svg-smile,
+.c-particles_item .svg-hand,
 .c-particles_item .svg-basketball,
 .c-particles_item .svg-world,
 .c-particles_item .svg-question {
@@ -1710,7 +1806,7 @@ html.is-first-loading .c-preloader_line {
 	height: 2.525rem;
 	white-space: nowrap;
 	overflow: hidden;
-	
+
 }
 
 .c-rail.-heading {
@@ -1769,7 +1865,7 @@ html.is-first-loading .c-preloader_line {
 	width: 135.283vw;
 	height: 25.05vw;
 	padding-right: 2.325rem;
-	fill: #101010
+	fill: #fff
 }
 
 .c-rail_inner {
@@ -1789,11 +1885,12 @@ html.is-first-loading .c-preloader_line {
 
 .c-rail.is-inview .c-rail_inner {
 	-webkit-animation-play-state: running;
-	animation-play-state: running
+	animation-play-state: running;
 }
 
 .c-rail.-reverse .c-rail_inner {
-	animation-direction: reverse
+	animation-direction: reverse;
+	background-color: rgb(4 31 42);
 }
 
 @-webkit-keyframes rail {
@@ -1818,6 +1915,18 @@ html.is-first-loading .c-preloader_line {
 		-webkit-transform: translate3d(-100%, 0, 0);
 		transform: translate3d(-100%, 0, 0)
 	}
+}
+
+.large1 {
+	font-size: 18px;
+}
+
+.large2 {
+	font-size: 12px;
+}
+
+.large3 {
+	font-size: 15px;
 }
 
 .c-rail_item {
@@ -1849,9 +1958,13 @@ html.is-first-loading .c-preloader_line {
 	position: relative
 }
 
-.c-roadmap_panel {
-	
+.text-run {
+	font-size: 500px;
+	font-weight: 700;
+
 }
+
+.c-roadmap_panel {}
 
 .c-roadmap_panel_inner {
 	position: relative;
@@ -1887,7 +2000,7 @@ html.is-first-loading .c-preloader_line {
 }
 
 .c-roadmap_panel_inner .c-list .c-list_item:first-child {
-	border-top: 1px solid #101010
+	border-top: 1px solid #fff
 }
 
 .c-roadmap_extra {
@@ -1904,7 +2017,7 @@ html.is-first-loading .c-preloader_line {
 	position: relative;
 	width: 56vw;
 	height: 56vw;
-	border: 1px solid #101010;
+	border: 1px solid #fff;
 	border-radius: 50%;
 	overflow: hidden
 }
@@ -2045,7 +2158,7 @@ html.is-first-loading .c-preloader_line {
 
 .c-section {
 	position: relative;
-	
+
 }
 
 .c-section.-no-overflow {
@@ -4046,7 +4159,7 @@ html.is-first-loading .c-preloader_line {
 	display: block;
 	width: var(--svg-width);
 	height: calc(var(--svg-width)*1/(var(--svg-ratio)));
-	fill: #101010
+	fill: #fff
 }
 
 .svg-logo {
@@ -4061,18 +4174,18 @@ html.is-first-loading .c-preloader_line {
 	}
 }
 
-.svg-smile,
+.svg-hand,
 .svg-basketball,
 .svg-world,
 .svg-question {
 	--svg-width: 3.289rem;
 	--svg-ratio: 1/1;
-	fill: #101010
+	fill: #fff
 }
 
 @media(min-width: 64rem) {
 
-	.svg-smile,
+	.svg-hand,
 	.svg-basketball,
 	.svg-world,
 	.svg-question {
@@ -4085,33 +4198,16 @@ html.is-first-loading .c-preloader_line {
 	--svg-ratio: 39/23
 }
 
-@media(min-width: 64rem) {
+@media(min-width: 61rem) {
 	.svg-world-2 {
 		--svg-width: 7.275rem
 	}
 }
 
 .svg-gs {
-	--svg-width: 8.75rem;
-	--svg-ratio: 220/182
-}
-
-@media(min-width: 30rem) {
-	.svg-gs {
-		--svg-width: 10.75rem
-	}
-}
-
-@media(min-width: 48rem) {
-	.svg-gs {
-		--svg-width: 13.75rem
-	}
-}
-
-@media(min-width: 150rem) {
-	.svg-gs {
-		--svg-width: 23.75rem
-	}
+	position: absolute;
+	bottom: 100px;
+	right: 90px;
 }
 
 .svg-scheme,
@@ -4233,11 +4329,12 @@ html.is-first-loading .c-preloader_line {
 }
 
 .u-border-top {
-	border-top: 1px solid #101010
+	border-top: 1px solid #fff;
 }
 
 .u-border-bottom {
-	border-bottom: 1px solid #101010
+	border-bottom: 1px solid #fff;
+	background-color: rgb(4 31 42);
 }
 
 .u-border-right {
@@ -4246,7 +4343,7 @@ html.is-first-loading .c-preloader_line {
 
 @media(min-width: 64rem) {
 	.u-border-right {
-		border-right: 1px solid #101010
+		border-right: 1px solid #fff
 	}
 }
 
@@ -4270,9 +4367,7 @@ html.is-first-loading .c-preloader_line {
 	background-color: #ff4342 !important
 }
 
-.u-bg-light {
-	 
-}
+.u-bg-light {}
 
 .u-bg-dark {
 	background-color: #fff !important
@@ -4366,7 +4461,7 @@ html.is-first-loading .c-preloader_line {
 }
 
 .u-xsmall {
-	font-size: .67rem
+	font-size: 0.9rem
 }
 
 .u-padding {
@@ -5283,4 +5378,159 @@ html.is-first-loading .c-preloader_line {
 	.u-display-inline-flex\@xsuper {
 		display: inline-flex !important
 	}
+}
+
+
+.coloring {
+	border: 1px solid #fff;
+}
+
+.white {
+	fill: #fff;
+}
+
+.yellow {
+	fill: #fff;
+}
+
+.green {
+	fill: #fff;
+}
+
+@keyframes rotating {
+	from {
+		transform: rotate(360deg);
+	}
+
+	to {
+		transform: rotate(0deg);
+	}
+}
+
+.rotating {
+	animation: rotating 12s linear infinite;
+}
+
+@keyframes coloring {
+	0% {
+		fill: #fff;
+	}
+
+	35% {
+		fill: #fff;
+	}
+
+	75% {
+		fill: #fff;
+	}
+
+	100% {
+		fill: #fff;
+	}
+}
+
+.coloring {
+	animation: coloring 12s linear infinite;
+	font-weight: 900;
+}
+
+/* Предложенный мной CSS-код */
+.rounded-text {
+	position: relative;
+}
+
+.c-circle-text::before,
+.c-circle-text::after,
+.c-circle-text .inner-line {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+
+}
+
+.c-circle-text::before {
+	border: 1px solid #fff;
+}
+
+.c-circle-text::after {
+	border: 1px solid #fff;
+}
+
+.c-circle-text .inner-line {
+	top: 50%;
+	left: 50%;
+	width: calc(100% - 13rem);
+	height: calc(100% - 13rem);
+	transform: translate(-50%, -50%);
+	border: 1px solid #fff;
+}
+
+.video {
+	position: absolute;
+	right: 116px;
+	top: 200px;
+	z-index: 8;
+}
+
+.leftandright-hand {
+	position: absolute;
+	width: 116.3%;
+	top: -40px;
+	left: -62px
+}
+.control {
+	position: relative;
+	top: 100px
+}
+
+.video-frame {
+	position: absolute;
+	right: 0%;
+	left: 0%;
+	top: 0%;
+	bottom: 0%;
+	width: 75%;
+/* 90% of viewport vidth */
+height: 60%;
+/* ratio = 9/16 * 90 = 50.625 */
+max-height: 70vh;
+max-width: 140vh;
+/* 16/9 * 90 = 160 */
+margin: auto;
+	overflow: hidden;
+	border: 1px solid #000;
+	-webkit-box-sizing: border-box;
+					box-sizing: border-box;
+	z-index: 9;
+	pointer-events: none;
+	-webkit-animation: clipMe 15s linear infinite;
+					animation: clipMe 15s linear infinite;
+	-webkit-border-image: 
+		-webkit-gradient(linear, 0 100%, 0 0, from(white), to(rgba(0, 0, 0, 0))) 1 100%;
+	-webkit-border-image: 
+		-webkit-linear-gradient(bottom, white, rgba(0, 0, 0, 0)) 1 100%;  
+	-o-border-image:
+		-o-linear-gradient(bottom, white, rgba(0, 0, 0, 0)) 1 100%;
+	border-image:
+		-webkit-gradient(linear, left bottom, left top, from(white), to(rgba(0, 0, 0, 0))) 1 100%;
+	border-image:
+		linear-gradient(to top, rgb(37, 255, 255), rgba(0, 0, 0, 0)) 1 100%;
+	
+}
+
+@-webkit-keyframes clipMe {
+0%    { height: 0%; }
+100%  { height: 60%; }
+0%, 100% { opacity: 0; }
+50% { opacity: 1; }
+}
+
+@keyframes clipMe {
+0%    { height: 0%; opacity: 0; }
+50% { opacity: 1; }
+100%  { height: 60%; opacity: 0; }
 }
