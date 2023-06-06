@@ -107,20 +107,14 @@
 								</li>
 								<li class="c-nav_list_item">
 									<a class="c-link" href="#collection" data-scroll-to data-scroll-offset="-61">Контакты</a>
-									<div class="large3">&nbsp;&nbsp;&#x1F4DE;</div>
+									<div class="large3">&nbsp;&nbsp;&#128222;</div>
 								</li>
 							</ul>
 						</nav>
 					</div>
-					<div class="c-header_links u-anim-translate"><a href="https://discord.gg/hB8AWJJ7fY" target="_blank"
-							rel="noopener" class="c-link_badge">
-							<div class="o-icon"><svg class="svg-discord">
-									<use xlink:href="fonts/sprite.svg#svg-discord" />
-								</svg></div>
-						</a><a href="https://mint.hakaji.io/"
-							class="c-header_links_btn c-button u-xsmall u-display-none u-display-block@large" target="_self">Оставить
-							заявку</a><button class="c-nav-mobile_burger u-display-none@large" type="button"><span
-								class="icon-menu">Menu</span> <span class="icon-menu-close">Close</span></button></div>
+					<div class="c-header_links u-anim-translate"><button class="c-nav-mobile_burger u-display-none@large"
+							type="button">
+						</button><button id="showForm">Показать форму входа</button></div>
 				</div>
 			</header>
 		</div>
@@ -182,8 +176,6 @@
 								</g>
 								<image xlink:href="images/Vector2.png" x="11" y="128" height="13" width="13"></image>
 								<image xlink:href="images/Vector3.png" x="177" y="60" height="13" width="13"></image>
-								<div>
-								</div>
 							</svg>
 							<div class="inner-line">
 								<img class="leftandright-hand" src="images/Рука.png" alt="">
@@ -1265,9 +1257,18 @@
 				class="c-modal_close -modal-exit">X</button>
 		</div>
 	</div>
-	<script defer="defer" src="js/random_simvol.js"></script>
-	<script defer="defer" src="js/vendors.bundle.3c6f1acbc8d494b9891e.js"></script>
-	<script defer="defer" src="js/app.bundle.e93e789b1147d70f44b3.js"></script>
 </body>
+<script defer="defer" src="js/random_simvol.js"></script>
+<script defer="defer" src="js/vendors.bundle.3c6f1acbc8d494b9891e.js"></script>
+<script defer="defer" src="js/app.bundle.e93e789b1147d70f44b3.js"></script>
+<script>
+	document.querySelector('#showForm').addEventListener('click', function () {
+		var loginForm = document.querySelector('.login__form');
+		loginForm.style.position = 'fixed';
+		loginForm.style.top = '50%';
+		loginForm.style.left = '50%';
+		loginForm.style.transform = 'translate(-50%, -50%)';
+	});
+</script>
 
 </html>
